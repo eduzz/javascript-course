@@ -1,0 +1,23 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css');
+
+h3 {
+  text-align: center;
+}
+
+body {
+  padding: 20px;
+}
+
+.space {
+  padding: 20px 0;
+  content: ' ';
+}
+
+.table tr td:first-child {
+  width: 50px;
+}
+
+.table tr td:last-child {
+  width: 50px;
+  white-space: nowrap;
+}

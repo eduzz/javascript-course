@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TODO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+  <h3>TODO List</h3>
+
+  <div class='space'></div>
+
+  <div class="form-group" id='form-group'>
+    <label class="control-label">Tarefa</label>
+    <input type='text' id='form-field' class="form-control" />
+    <span id='err'></span>
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Tarefa</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Tarefa 1</td>
+        <td>
+          <button class='btn btn-success'>
+            <i class='glyphicon glyphicon-check'></i>
+          </button>
+          <button class='btn btn-danger'>
+            <i class='glyphicon glyphicon-trash'></i>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="/main.js"></script>
+</body>
+
+</html>
