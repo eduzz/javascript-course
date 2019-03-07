@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server ./basic",
-    "start-es6": "live-server ./basic-es6",
+    "start-basic-form": "live-server ./basic/form/inicial",
+    "start-basic-form-complete": "live-server ./basic/form/complete",
+    "start-basic-form-es6": "live-server ./basic/form/es6",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
