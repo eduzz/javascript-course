@@ -1,4 +1,4 @@
-class Form {
+export class Form {
   constructor() {
     this._value = '';
 
@@ -49,5 +49,3 @@ class Form {
     this.value = 'Daniel de Oliveira Prado';
   }
 }
-
-const form = new Form();

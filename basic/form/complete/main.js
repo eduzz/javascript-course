@@ -1,6 +1,6 @@
 var nomeInicial = 'Daniel';
 
-// document.querySelector('h3 span').innerHTML = nome;
+// document.querySelector('h3').innerHTML = nome;
 var nome = document.getElementById('nome')
 // nome.innerHTML = nomeInicial;
 nome.innerHTML = 'Olá ' + nomeInicial + '!';
