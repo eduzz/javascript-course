@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "live-server ./todo",
     "start-basic-form": "live-server ./basic/form/inicial",
     "start-basic-form-complete": "live-server ./basic/form/complete",
     "start-basic-form-es6": "live-server ./basic/form/es6",
@@ -12,6 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "node-dev": "^3.1.3"
   }
 }

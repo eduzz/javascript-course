@@ -24,20 +24,20 @@ console.log('null:', '\t\t', null, '\t\t\t\t', typeof null, '\t <~ ¯\\_(ツ)_/�
 //****************************************************************** */
 console.log('\x1b[35m%s\x1b[0m', '\n*** Prototypes ***');
 
-console.log('string.charAt:', string.charAt(1));
+console.log('string.charAt():', string.charAt(1));
 try {
-  console.log('number.charAt:', number.charAt(1));
+  console.log('number.charAt():', number.charAt(1));
 } catch (err) {
-  console.log('number.charAt:', err.message);
+  console.log('number.charAt():', err.message);
 }
 
-console.log('number.toString().charAt:', number.toString().charAt(1));
-console.log('number.toFixed:', number.toFixed(2));
+console.log('number.toString().charAt():', number.toString().charAt(1));
+console.log('number.toFixed(2):', number.toFixed(2));
 
 try {
-  console.log('string.toFixed:', string.toFixed(2));
+  console.log('string.toFixed(2):', string.toFixed(2));
 } catch (err) {
-  console.log('string.toFixed:', err.message);
+  console.log('string.toFixed(2):', err.message);
 }
 
 console.log('array.length', array.length);
@@ -48,7 +48,10 @@ console.log('\x1b[35m%s\x1b[0m', '\n*** Criando Prototypes ***');
 
 console.log('array.meuValor', '\t', array.meuValor, '\t', '<~ Ainda não existe');
 console.log('obj.meuValor', '\t', obj.meuValor, '\t', '<~ Ainda não existe');
+
+// Criando Prototypes
 Object.prototype.meuValor = function() { return this; };
+
 console.log('array.meuValor', '\t', array.meuValor(), '\t', '<~ Agora sim');
 console.log('obj.meuValor', '\t', obj.meuValor(), '\t', '<~ Agora sim');
 
